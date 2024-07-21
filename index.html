@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<title>МИНИНФОРМ ТО</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container container_header">
+				<a href="/" class="header__link-home">
+					<img src="img/logo.png" alt="Логотип" class="header__logo">
+				</a>
+				<nav class="header__menu">
+					<button class="header__close">
+						<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+							<path d="M30 30L6 6M30 6L6 30" stroke="#1A1B1D" stroke-width="3" stroke-linecap="round"/>
+						</svg>
+					</button>
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="#" class="header__link">
+								О проекте
+							</a>
+						</li>
+						<li class="header__item">
+							<a href="#" class="header__link">
+								Наши мероприятия
+							</a>
+						</li>
+						<li class="header__item">
+							<a href="#" class="header__link">
+								Полезная информация
+							</a>
+						</li>
+						<li class="header__item">
+							<a href="#" class="header__link">
+								Полезные телефоны
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="header__burger">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+						<path d="M6.66667 30H33.3333C34.25 30 35 29.25 35 28.3333C35 27.4167 34.25 26.6667 33.3333 26.6667H6.66667C5.75 26.6667 5 27.4167 5 28.3333C5 29.25 5.75 30 6.66667 30ZM6.66667 21.6667H33.3333C34.25 21.6667 35 20.9167 35 20C35 19.0833 34.25 18.3333 33.3333 18.3333H6.66667C5.75 18.3333 5 19.0833 5 20C5 20.9167 5.75 21.6667 6.66667 21.6667ZM5 11.6667C5 12.5833 5.75 13.3333 6.66667 13.3333H33.3333C34.25 13.3333 35 12.5833 35 11.6667C35 10.75 34.25 10 33.3333 10H6.66667C5.75 10 5 10.75 5 11.6667Z" fill="#1A1B1D"/>
+					</svg>
+				</button>
+		</div>
+	</header>
+	<main class="main">
+		<section class="about">
+			<div class="container container_about">
+				<div class="about__text">
+					<h1 class="title title_h1">
+						НЕ ДАЙ СЕБЯ ОБМАНУТЬ!
+					</h1>
+					<div class="about__subtitle">
+						Информационный проект для всех, <br>кто хочет узнать, как обезопасить <br>себя и не попасться в руки мошенникам
+					</div>
+				</div>
+				<img src="img/about-img.png" class="about__img">
+			</div>
+		</section>
+		<section class="project">
+			<div class="container container_project">
+				<h2 class="title title_h2 title_project">
+					О проекте
+				</h2>
+				<div class="project__wrapper">
+					<img src="img/project-img.png" class="project__img">
+					<div class="project__info">
+						<div class="project__item">
+							<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+								<g clip-path="url(#clip0_105_1689)">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M42.34 7.31665L65.6733 16.0667C66.9444 16.5431 68.0397 17.3962 68.8128 18.5118C69.586 19.6275 70.0002 20.9526 70 22.31V40.1867C70.0001 45.7581 68.4488 51.2195 65.5198 55.9588C62.5908 60.6982 58.3999 64.5283 53.4167 67.02L42.2367 72.6067C41.5422 72.954 40.7765 73.1348 40 73.1348C39.2235 73.1348 38.4578 72.954 37.7633 72.6067L26.5833 67.0167C21.6001 64.525 17.4092 60.6949 14.4802 55.9555C11.5512 51.2161 9.99988 45.7547 10 40.1833V22.3133C9.99915 20.9554 10.413 19.6295 11.1862 18.5132C11.9594 17.3969 13.0551 16.5433 14.3267 16.0667L37.66 7.31665C39.1687 6.7511 40.8313 6.7511 42.34 7.31665ZM40 46.6667C39.1159 46.6667 38.2681 47.0178 37.643 47.643C37.0179 48.2681 36.6667 49.1159 36.6667 50C36.6667 50.884 37.0179 51.7319 37.643 52.357C38.2681 52.9821 39.1159 53.3333 40 53.3333C40.8841 53.3333 41.7319 52.9821 42.357 52.357C42.9821 51.7319 43.3333 50.884 43.3333 50C43.3333 49.1159 42.9821 48.2681 42.357 47.643C41.7319 47.0178 40.8841 46.6667 40 46.6667ZM40 23.3333C39.1836 23.3334 38.3955 23.6332 37.7854 24.1757C37.1753 24.7182 36.7855 25.4658 36.69 26.2767L36.6667 26.6667V40C36.6676 40.8496 36.9929 41.6668 37.5762 42.2845C38.1594 42.9023 38.9565 43.2741 39.8046 43.3239C40.6528 43.3737 41.4879 43.0977 42.1394 42.5524C42.791 42.0071 43.2097 41.2336 43.31 40.39L43.3333 40V26.6667C43.3333 25.7826 42.9821 24.9348 42.357 24.3096C41.7319 23.6845 40.8841 23.3333 40 23.3333Z" fill="#008BCC"/>
+								</g>
+								<defs>
+									<clippath id="clip0_105_1689">
+										<rect width="80" height="80" fill="white"/>
+									</clippath>
+								</defs>
+							</svg>
+							<div class="project__text">
+								Бесплатный проект, который научит распознавать мошенников и их схемы, а также расскажет об эффективных методах защиты
+							</div>
+						</div>
+						<div class="project__item">
+							<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+								<path d="M17.4435 70C15.7894 70 14.3738 69.413 13.1969 68.239C12.0199 67.065 11.4305 65.652 11.4285 64V16C11.4285 14.35 12.0179 12.938 13.1969 11.764C14.3758 10.59 15.7914 10.002 17.4435 10H41.5036L59.5487 28V37C58.3959 37.25 57.3182 37.65 56.3157 38.2C55.3132 38.75 54.3858 39.45 53.5337 40.3L35.4886 58.225V70H17.4435ZM41.5036 70V60.775L58.1202 44.275C58.5713 43.825 59.0726 43.5 59.6239 43.3C60.1753 43.1 60.7267 43 61.2781 43C61.8796 43 62.456 43.113 63.0074 43.339C63.5588 43.565 64.06 43.902 64.5111 44.35L67.2931 47.125C67.6941 47.575 68.0079 48.075 68.2345 48.625C68.461 49.175 68.5733 49.725 68.5713 50.275C68.5693 50.825 68.469 51.388 68.2705 51.964C68.072 52.54 67.7462 53.052 67.2931 53.5L50.7518 70H41.5036ZM61.2781 53.2L64.06 50.275L61.2781 47.5L58.4209 50.35L61.2781 53.2ZM38.4961 31H53.5337L38.4961 16V31Z" fill="#008BCC"/>
+							</svg>
+							<div class="project__text">
+								На сайте вы найдете полезные материалы и инструкции
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="events">
+			<div class="container">
+				<h2 class="title title_h2 title_events">
+					Наши мероприятия
+				</h2>
+				<div class="events__calendar">
+					<div class="events__calendar-header">
+						<span></span>
+						<div class="events__year">2024</div>
+						<span></span>
+					</div>
+					<div class="events__months">
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">2</div>
+							</div>
+							<div class="events__month-title">
+								Январь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Февраль
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Март
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Апрель
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Май
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">3</div>
+							</div>
+							<div class="events__month-title">
+								Июнь
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">3</div>
+							</div>
+							<div class="events__month-title">
+								Июль
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Август
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Сентябрь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Октябрь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Ноябрь
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Декабрь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">2</div>
+							</div>
+							<div class="events__month-title">
+								Январь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Февраль
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Март
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Апрель
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Май
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">3</div>
+							</div>
+							<div class="events__month-title">
+								Июнь
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">3</div>
+							</div>
+							<div class="events__month-title">
+								Июль
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Август
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Сентябрь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Октябрь
+							</div>
+						</div>
+						<div class="events__month">
+							<div class="events__month-icon">
+								<div class="events__month-counter">0</div>
+							</div>
+							<div class="events__month-title">
+								Ноябрь
+							</div>
+						</div>
+						<div class="events__month events__month_active">
+							<div class="events__month-icon">
+								<div class="events__month-counter">1</div>
+							</div>
+							<div class="events__month-title">
+								Декабрь
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="events__list">
+					<div class="event">
+						<div class="event__header">
+							<div class="event__info">
+								<div class="event__date">29 авг., 11:00</div>
+								<div class="event__kind">Онлайн-трансляция</div>
+							</div>
+							<div class="event__link">социальная сеть Вконтакте</div>
+						</div>
+						<div class="event__title">
+							Мошенничество при приеме на работу: как избежать обмана
+						</div>
+					</div>
+					<div class="event">
+						<div class="event__header">
+							<div class="event__info">
+								<div class="event__date">30 авг., 12:00</div>
+								<div class="event__kind">Онлайн-трансляция</div>
+							</div>
+							<div class="event__link">социальная сеть Вконтакте</div>
+						</div>
+						<div class="event__title">
+							Мошенничество при приеме на работу: как избежать обмана
+						</div>
+					</div>
+					<div class="event">
+						<div class="event__header">
+							<div class="event__info">
+								<div class="event__date">31 авг., 11:00</div>
+								<div class="event__kind">Онлайн-трансляция</div>
+							</div>
+							<div class="event__link">социальная сеть Вконтакте</div>
+						</div>
+						<div class="event__title">
+							Мошенничество при приеме на работу: как избежать обмана
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="interaction interaction_distribution">
+			<div class="container container_interaction">
+				<h2 class="title title_h2 title_interaction">
+					Подпишитесь на рассылку
+				</h2>
+				<div class="interaction__subtitle">
+					Подпишитесь, чтобы получать информацию из первых рук
+				</div>
+				<button class="btn btn_blue btn_distribution">
+					Подписаться
+				</button>
+				<img src="img/distribution-img.png" class="interaction__img">
+			</div>
+		</section>
+		<section class="interaction interaction_self-test">
+			<div class="container container_interaction">
+				<h2 class="title title_h2 title_interaction">
+					Проверьте себя
+				</h2>
+				<div class="interaction__subtitle">
+					Оцените, насколько вы готовы противостоять мошенникам
+				</div>
+				<button class="btn btn_blue btn_self-test">
+					Пройти тест
+				</button>
+				<img src="img/self-test-img.png" class="interaction__img">
+			</div>
+		</section>
+		<section class="info">
+			<div class="container container_info">
+				<h2 class="title title_h2 title_info">
+					Полезная информация
+				</h2>
+				<div class="info__items">
+					<ul class="info__list">
+						<li class="info__item">
+							<img src="img/info-img.png" class="info__img">
+							<div class="info__item-text">
+								<div class="info__item-date">
+									03.06.2024
+								</div>
+								<div class="info__item-title">
+									Обман в сфере туризма: как не стать жертвой мошенников
+								</div>
+							</div>
+						</li>
+						<li class="info__item">
+							<img src="img/info-img.png" class="info__img">
+							<div class="info__item-text">
+								<div class="info__item-date">
+									03.06.2024
+								</div>
+								<div class="info__item-title">
+									Мошенничество в сфере микрофинансов: как не стать жертвой и защитить свои средства
+								</div>
+							</div>
+						</li>
+						<li class="info__item">
+							<img src="img/info-img.png" class="info__img">
+							<div class="info__item-text">
+								<div class="info__item-date">
+									03.06.2024
+								</div>
+								<div class="info__item-title">
+									Мошенничество в мире онлайн-знакомств
+								</div>
+							</div>
+						</li>
+						<li class="info__item">
+							<img src="img/info-img.png" class="info__img">
+							<div class="info__item-text">
+								<div class="info__item-date">
+									03.06.2024
+								</div>
+								<div class="info__item-title">
+									Куда обратиться, если вы стали или предполагаете, что стали жертвой мошенничества?
+								</div>
+							</div>
+						</li>
+					</ul>
+					<button class="btn btn_clear btn_info">
+						Показать еще
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="catalogue">
+			<div class="container container_catalogue">
+				<div class="catalogue__left">
+					<h2 class="title title_h2 title_catalogue">
+						Куда звонить, если вы стали жертвой мошенников?
+					</h2>
+					<img src="img/catalogue-img.png" class="catalogue__img">
+				</div>
+				<div class="catalogue__right">
+					<div class="catalogue__title">
+						Справочник проверенных организаций
+					</div>
+					<form class="catalogue__form">
+						<!-- <input type="text" class="catalogue__input"> -->
+						<select class="catalogue__input" multiple="multiple">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+						<button class="catalogue__btn"></button>
+					</form>
+					<ul class="catalogue__list">
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+						<li class="catalogue__item">
+							<div class="catalogue__item-left">
+								<div class="catalogue__item-name">
+									Наименование организации
+								</div>
+								<div class="catalogue__item-work-time">
+									Круглосуточно
+								</div>
+							</div>
+							<div class="catalogue__item-tel">
+								Номер телефона
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container container_footer">
+			<div class="footer__copyright">
+				&copy; ГАУ ТО «Центр информационных технологий»
+			</div>
+			<div class="footer__logo"></div>
+		</div>
+	</footer>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
