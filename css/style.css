@@ -515,9 +515,6 @@ ul {
   align-items: center;
 }
 
-.info__img-wrapp {
-}
-
 .info__img {
   object-fit: contain;
   object-position: center;
@@ -677,6 +674,35 @@ ul {
   width: 196px;
   height: 53px;
   background: url(../img/footer-logo.svg) center/contain no-repeat;
+}
+
+.btn-up {
+  position: fixed;
+  left: 50%;
+  bottom: 136px;
+  transform: translateX(900%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #FFF;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+
+
+.btn-up_hide {
+  display: none;
+}
+
+@media screen and (max-width:1328px) {
+  .btn-up {
+    left: unset;
+    transform: translateX(0);
+    right: 16px;
+  }
 }
 
 @media screen and (max-width:1250px) {
