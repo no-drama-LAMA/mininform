@@ -678,9 +678,8 @@ ul {
 
 .btn-up {
   position: fixed;
-  left: 50%;
+  right: calc(50% - 648px);
   bottom: 136px;
-  transform: translateX(900%);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -692,15 +691,12 @@ ul {
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
 }
 
-
 .btn-up_hide {
   display: none;
 }
 
 @media screen and (max-width:1328px) {
   .btn-up {
-    left: unset;
-    transform: translateX(0);
     right: 16px;
   }
 }
